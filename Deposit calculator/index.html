@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="deposit-style.css" />
+    <title>Калькулятор депозита</title>
+  </head>
+  <body>
+    <form class="container">
+      <h1 class="title">Калькулятор вклада</h1>
+
+      <table class="block">
+        <tr>
+          <td>Сумма депозита</td>
+          <td>
+            <input
+              class="choice"
+              name="money"
+              type="number"
+              value="10000"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Вид вклада</td>
+          <td>
+            <select name="deposit-type" class="deposit-type">
+              <option value="refillable">Пополняемый</option>
+              <option value="term">Срочный</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Срок вклада</td>
+          <td>
+            <select name="deposit-type" class="deposit-type">
+              <option value="sixMounth">6 месяцев - 20%</option>
+              <option value="oneYear">1 год - 22%</option>
+              <option value="OneHalfYear">1,5 год - 15%</option>
+              <option value="twoYear">2 год - 10%</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+
+      <a class="block botton">Рассчитать</a>
+    </form>
+  </body>
+</html>
