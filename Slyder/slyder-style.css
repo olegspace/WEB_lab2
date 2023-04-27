@@ -36,3 +36,12 @@ img {
   color: rgb(0, 0, 255);
   font-size: 30px;
 }
+
+.btn {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  width: auto;
+  max-width: 50%;
+  min-width: 100px;
+}
